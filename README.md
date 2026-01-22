@@ -6,7 +6,7 @@ The project uses a simple CNN architecture with image preprocessing, training, v
 
 ---
 
-## Features
+## ✨Features
 
 - Binary image classification (Cat vs Dog)
 - CNN built using Keras Sequential API
@@ -17,7 +17,7 @@ The project uses a simple CNN architecture with image preprocessing, training, v
 
 ---
 
-## Dataset
+## 📁Dataset
 
 The dataset consists of images of cats and dogs. Due to the large size of the dataset, images are **not included** in this repository.
 
@@ -27,7 +27,7 @@ You can use publicly available datasets such as:
 
 ---
 
-## Directory Structure
+## 🗂 Directory Structure
 
 After downloading and organizing the dataset, the directory structure should look like this:
 CAT-DOG-CNN
@@ -50,7 +50,7 @@ CAT-DOG-CNN
 
 ---
 
-## Model Architecture
+##🧠 Model Architecture
 
 The CNN model consists of the following layers:
 
