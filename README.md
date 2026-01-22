@@ -86,55 +86,31 @@ Training and validation are performed using directory-based generators.
 ---
 
 ## Installation & Setup
-
-1. Clone the repository:
-
+### Install required dependencies:
 ```bash
-git clone https://github.com/your-username/Cat-Dog-CNN.git
-cd Cat-Dog-CNN
-
-
-Install required dependencies:
-
 pip install numpy keras tensorflow
-
-
-Update dataset paths in the code according to your local system.
-
-Model Training
+```
+### Model Training
 
 Run the training script to train the CNN model.
 The trained weights will be saved as:
-
+```bash
 cat_dog_1.h5
-
-Evaluation & Prediction
-
+```
+### Evaluation & Prediction
 The model supports prediction on:
 
-A complete evaluation directory
+-A complete evaluation directory
 
-Individual images
+-Individual images
 
 Prediction output:
-
+```bash
 0 → Cat
 
 1 → Dog
+```
+### Results
+The model achieves good accuracy on the validation set and performs reliably on unseen evaluation images. Performance vary depending on dataset size, image quality, and training duration.
 
-Results
-
-The model achieves good accuracy on the validation set and performs reliably on unseen evaluation images. Performance may vary depending on dataset size, image quality, and training duration.
-
-Notes
-
-The code uses absolute paths. Make sure to update them before running.
-
-model.predict_classes() is deprecated in newer TensorFlow versions. It can be replaced with model.predict() followed by thresholding.
-
-Author
-
-Sara Durrani
-
-For questions or suggestions, feel free to reach out.
 
