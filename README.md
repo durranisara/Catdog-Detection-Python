@@ -1,5 +1,4 @@
-# Cat vs Dog Image Classification using CNN
-
+# Automated Cat and Dog Detection Using CNN
 This repository implements a Convolutional Neural Network (CNN) for binary image classification of cats and dogs using Keras. The model is trained on labeled image data and predicts whether a given image belongs to the **cat** or **dog** class.
 
 The project uses a simple CNN architecture with image preprocessing, training, validation, and evaluation pipelines.
