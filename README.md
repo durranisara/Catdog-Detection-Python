@@ -62,7 +62,7 @@ The CNN model consists of the following layers:
 - Fully Connected Dense Layer (128 units, ReLU)
 - Output Layer (1 unit, Sigmoid)
 
-### Compilation Details
+### 🔧Compilation Details
 
 - Loss Function: `binary_crossentropy`
 - Optimizer: `Adam`
@@ -70,7 +70,7 @@ The CNN model consists of the following layers:
 
 ---
 
-## Training Details
+## ⚙️Training Details
 
 - Image size: 224 × 224
 - Batch size: 64
@@ -86,18 +86,18 @@ Training and validation are performed using directory-based generators.
 ---
 
 ## Installation & Setup
-### Install required dependencies:
+###  🚀Install required dependencies:
 ```bash
 pip install numpy keras tensorflow
 ```
-### Model Training
+### 🏋️Model Training
 
 Run the training script to train the CNN model.
 The trained weights will be saved as:
 ```bash
 cat_dog_1.h5
 ```
-### Evaluation & Prediction
+### 🔍Evaluation & Prediction
 The model supports prediction on:
 
 -A complete evaluation directory
