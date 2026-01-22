@@ -26,29 +26,6 @@ You can use publicly available datasets such as:
 
 ---
 
-## 🗂 Directory Structure
-
-After downloading and organizing the dataset, the directory structure should look like this:
-CAT-DOG-CNN
-├── data
-│ ├── train
-│ │ ├── cats
-│ │ │ └── cat.1.jpg
-│ │ └── dogs
-│ │ └── dog.1.jpg
-│ ├── validation
-│ │ ├── cats
-│ │ └── dogs
-│ └── evaluation
-│ ├── cats
-│ └── dogs
-├── cat_dog_1.h5
-├── main.py
-└── README.md
-
-
----
-
 ##🧠 Model Architecture
 
 The CNN model consists of the following layers:
